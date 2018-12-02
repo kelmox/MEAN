@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    .row
+        h1 Add a new top scorer
+    form(action="", method="post")
+        .form-group.row
+            label Year
+                input.form-control(name="year")
+        .form-group.row
+            label Player
+                input.form-control(name="player")
+        .form-group.row
+            label Team
+                input.form-control(name="team")
+        .form-group.row
+            button.btn.btn-outline-secondary Add scorer

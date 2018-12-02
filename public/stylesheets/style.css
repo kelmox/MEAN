@@ -1,0 +1,65 @@
+body {
+    font: 14px "Ubuntu", Helvetica, Arial, sans-serif;
+}
+
+a.navbutton {
+    color: #000000;
+    font-weight: bold;
+    transition: background-color 1s, color 1s;
+    margin-top: 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+a.navbutton:hover{
+    color: white;
+    background-color: darkred;
+}
+
+a {
+    color: red
+}
+
+a:hover{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.navbar{
+    background-color: red;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-bottom: 2px solid;
+}
+
+.container-fluid{
+    padding:50px;
+}
+
+.container-fluid-nav{
+    padding: 10px;
+}
+
+img{
+    padding: 2px;
+    margin: 0px 30px 0px 35px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li{
+    padding: 4px 0px 4px 0px;
+}
+
+.container-footer{
+    padding-left: 48px;
+}
